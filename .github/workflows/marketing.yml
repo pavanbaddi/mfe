@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - 'packages/marketing/**'
-      - 'packages/workflows/marketing.yml'
+      - '.github/workflows/marketing.yml'
 
 jobs:
   build:

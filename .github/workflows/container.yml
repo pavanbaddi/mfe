@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - 'packages/container/**'
-      - 'packages/workflows/container.yml'
+      - '.github/workflows/container.yml'
 
 jobs:
   build:
